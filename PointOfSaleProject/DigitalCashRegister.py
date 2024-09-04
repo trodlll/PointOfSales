@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import firebase_admin
 from firebase_admin import credentials, db
-from pathlib import Path
+
 
 def add_data(key, data):
     ref = db.reference(key)
